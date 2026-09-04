@@ -2,6 +2,10 @@
 
 A content-based movie recommendation system built on the IMDb Top 250 dataset. Pick a movie and get 5 similar recommendations, based on genre and plot description.
 
+**Live app:** https://realreema-movie-recommender.streamlit.app
+
+## Demo
+
 https://github.com/user-attachments/assets/2f12920b-3082-4ce8-995e-c183107ab28e
 
 ## How it works
@@ -14,17 +18,6 @@ Each movie's genres and description get combined into one text feature (genres c
 - `recommendation_system.py` - the recommendation logic, tested from the terminal before building the app
 - `imdb_top_250.csv` - the dataset
 - `.streamlit/config.toml` - custom color theme for the app
-
-## Run it locally
-
-1. Install the requirements:
-```
-pip install streamlit pandas scikit-learn
-```
-2. Run the app:
-```
-streamlit run app.py
-```
 
 ## Tools
 
