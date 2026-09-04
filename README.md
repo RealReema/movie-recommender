@@ -2,6 +2,8 @@
 
 A content-based movie recommendation system built on the IMDb Top 250 dataset. Pick a movie and get 5 similar recommendations, based on genre and plot description.
 
+https://github.com/user-attachments/assets/2f12920b-3082-4ce8-995e-c183107ab28e
+
 ## How it works
 
 Each movie's genres and description get combined into one text feature (genres count more than the description). That text gets converted into numbers using TF-IDF, then I use cosine similarity to see how close each movie is to every other one. Give it a movie, and it returns the 5 closest matches.
